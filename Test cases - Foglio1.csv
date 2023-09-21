@@ -1,0 +1,126 @@
+Id,Test description,Test steps,Test data,Expected result,Actual result,Status
+TC01,Check if user can register,1. Open the site,https://demo.nopcommerce.com/,"- Site is sucessfully loaded
+- Top navigation has: 
+   - Currency selector with US dollar selected on the left side
+   - Register, Log in, Wishlist and Shopping cart on the right side
+- Wishlist should have counter at 0
+- Shopping cart should have counter at 0
+- Hovering over top menu options on the right side, changes their text color to #4ab2f1
+- Header part has:
+   - Logo of nopcommerce on the left side
+   - Search bar with blue seach button, white text  (placeholder is: Search store)
+- Menu has categories:
+   - Computers, Electronics, Apparel, Digital downloads, Books, Jewelry, Gift Cards
+- Hovering over the categories Computers, Electronics, Apparel shows submenu
+- Ad about products - Nokia Lumia is first by default
+- Welcome to our store header ",As expected,
+,,2. Click the Register button,https://demo.nopcommerce.com/register?returnUrl=%2F,"- Top navigation has: 
+   - Currency selector with US dollar selected on the left side
+   - Register, Log in, Wishlist and Shopping cart on the right side                                                                                                - Wishlist should have counter at 0
+- Shopping cart should have counter at 0                                                                                                                              - Hovering over top menu options on the right side, changes their text color to #4ab2f1
+- Header part has:
+   - Logo of nopcommerce on the left side
+   - Search bar with blue seach button, white text  (placeholder is: Search store)
+- Menu has categories:
+   - Computers, Electronics, Apparel, Digital downloads, Books, Jewelry, Gift Cards
+- Hovering over the categories Computers, Electronics, Apparel shows submenu                                           - Register header under the menu 
+Form field has:                                                                                                                                                            - Your personal details header under the register header                                                                         
+- Checkbox ""Male"" and  ""Female""                                                                                                                    - First name,Second name input required fields
+- Day,Month, Year select field
+- Email input required field
+- Company Details header
+- Company name input field
+- Options header
+- Newsletter checkbox
+- Your passwor header
+- Password an Confirm Password input required fields
+ - Register button",As expected,
+,,3. Fill out the registration form ,"https://demo.nopcommerce.com/register?returnUrl=%2F
+
+First Name: Regina
+Second Name: Galieva
+Email: reginagaliieva7@gmail.com
+Password: 1234567
+Confirm password: 1234567",,As expected,
+,,4. Click on the Register button in the bottom of the page,https://demo.nopcommerce.com/registerresult/1?returnUrl=/,"- Site is sucessfully loaded
+- Top navigation has: 
+   - Currency selector with US dollar selected on the left side
+   - Register, Log in, Wishlist and Shopping cart on the right side
+- Wishlist should have counter at 0
+- Shopping cart should have counter at 0
+- Hovering over top menu options on the right side, changes their text color to #4ab2f1
+- Header part has:
+   - Logo of nopcommerce on the left side
+   - Search bar with blue seach button, white text  (placeholder is: Search store)
+- Menu has categories:
+   - Computers, Electronics, Apparel, Digital downloads, Books, Jewelry, Gift Cards
+- Hovering over the categories Computers, Electronics, Apparel shows submenu
+- Header with Register written on it is shown
+- A completitation message is shown that says ""Your registration completed""
+- A Continue button is show
+   - Can hover over the Continue button
+   - Can click the Continue button",As expected,
+TC02,Check if user can log in using valid data,1. Open the site,https://demo.nopcommerce.com/,TC01 step 1.,As expected,
+,,2. Click the Log in button in the top navigation menu,https://demo.nopcommerce.com/login?returnUrl=%2F,"- Top navigation has: 
+   - Currency selector with US dollar selected on the left side
+   - Register, Log in, Wishlist and Shopping cart on the right side
+- Wishlist should have counter at 0
+- Shopping cart should have counter at 0
+- Hovering over top menu options on the right side, changes their text color to #4ab2f1
+- Header part has:
+   - Logo of nopcommerce on the left side
+   - Search bar with blue seach button, white text  (placeholder is: Search store)
+- Menu has categories:
+   - Computers, Electronics, Apparel, Digital downloads, Books, Jewelry, Gift Cards
+- Hovering over the categories Computers, Electronics, Apparel shows submenu
+- A sign saying ""Welcome, Please Sign In!""
+-Two fields are shown under ""Welcome, Please Sign In!""
+   - One with New Customer message, and text, as well as a Register button under the message
+   - One with Returning Customer message, with the form options to insert an email adress, to insert a password, to tick the checkbox ""Remeber me"" and the ""Forgot password"" option that can hover and click. Here is also the Log In button.
+- At the bottom is a ""About login/registration"" message",As expected,
+,,3. Click the blue Log in button,,"- Top navigation has: 
+   - Currency selector with US dollar selected on the left side
+   - My occount, Log out, Wishlist and Shopping cart on the right side
+- Wishlist should have counter at 0
+- Shopping cart should have counter at 0
+- Hovering over top menu options on the right side, changes their text color to #4ab2f1
+- Header part has:
+   - Logo of nopcommerce on the left side
+   - Search bar with blue seach button, white text  (placeholder is: Search store)
+- Menu has categories:
+   - Computers, Electronics, Apparel, Digital downloads, Books, Jewelry, Gift Cards
+- Hovering over the categories Computers, Electronics, Apparel shows submenu
+- Ad about products - Nokia Lumia is first by default
+- Welcome to our store header ",As expected,
+TC03,Check if user can add items to the cart,1. Open the site,https://demo.nopcommerce.com/,TC01 step 1.,As expected,
+,,2. Click to the Computers name,https://demo.nopcommerce.com/computers,"- Top navigation has: 
+- Currency selector with US dollar selected on the left side 
+- My occount, Log out, Wishlist and Shopping cart on the right side 
+- Wishlist should have counter at 0 
+- Shopping cart should have counter at 0 
+- Hovering over top menu options on the right side, changes their text color to #4ab2f1 
+- Header part has: 
+- Logo of nopcommerce on the left side
+ - Search bar with blue seach button, white text (placeholder is: Search store) 
+- Menu has categories: 
+- Computers, Electronics, Apparel, Digital downloads, Books, Jewelry, Gift Cards
+- Hovering over the categories Computers, Electronics, Apparel shows submenu
+-Under the menu Computers header
+-Inder the header three pictures and fields: Desktops,Notebooks,Software",As expected,
+,,3. Click to the Desktops name,https://demo.nopcommerce.com/desktops,"- Top navigation has: 
+- Currency selector with US dollar selected on the left side 
+- My occount, Log out, Wishlist and Shopping cart on the right side
+ - Wishlist should have counter at 0
+ - Shopping cart should have counter at 0
+ - Hovering over top menu options on the right side, changes their text color to #4ab2f1
+ - Header part has: - Logo of nopcommerce on the left side
+ - Search bar with blue seach button, white text (placeholder is: Search store)
+ - Menu has categories: 
+- Computers, Electronics, Apparel, Digital downloads, Books, Jewelry, Gift Cards 
+- Hovering over the categories Computers, Electronics, Apparel shows submenu
+-Under the menu Desktop header
+- Select field  Sort by 
+- Select field Display per page 
+- Products picture, price, name,add to cart button, ",As expected,
+,,4. Click to the Add to cart button,https://demo.nopcommerce.com/desktops,"- Message "" The product has been added to your shopping cart"" shown on the top in the green field
+",As expected,
